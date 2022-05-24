@@ -1222,10 +1222,19 @@ section {
 @media screen and (max-width: 600px) {
   .carousel-item img {
     margin-top: 100px;
-    height: 200px;
+    height: 220px;
   }
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     margin-top: 90px;
   }
+  .d-none {
+    display: block !important; 
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+    background: rgba(26, 35, 39, 0.7); /* Цвет фона */
+      color: #fff;
+    
 }
