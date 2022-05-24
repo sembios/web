@@ -1216,7 +1216,7 @@ section {
 }
 
 .img-fluid {
-  /* max-width: 150px; */
+  max-width: 150px;
 }
 
 @media screen and (max-width: 600px) {
