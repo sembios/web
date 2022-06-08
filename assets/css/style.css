@@ -1199,6 +1199,7 @@ section {
 
 .product-info img {
   width: 200px;
+  align-self: center;
 }
 
 .product-info p {
@@ -1214,6 +1215,14 @@ section {
 .product-info a:hover {
   align-self: end;
   color: red;
+}
+
+.detail--title {
+  font-weight: 600;
+}
+
+.swiper-slide {
+  width: 40%;
 }
 
 /* .carousel {
