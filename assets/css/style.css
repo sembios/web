@@ -1201,6 +1201,7 @@ section {
 .product-info img {
   width: 200px;
   align-self: center;
+  padding-bottom: 20px;
 }
 
 .product-info p {
@@ -1208,7 +1209,7 @@ section {
 }
 
 .product-info a {
-  padding-top: 15px;
+  right: 0;
   align-self: end;
   color: #0e409c;
 }
@@ -1230,7 +1231,7 @@ section {
   position: absolute;
   width: 90px !important;
   left: 10px;
-  bottom: 0;
+  bottom: -25px;
   
 }
 
