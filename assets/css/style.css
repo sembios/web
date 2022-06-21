@@ -1188,6 +1188,7 @@ section {
 }
 
 .product-info {
+  position: relative;
   width: 300px;
   border: 1px solid rgb(158, 151, 151);
   border-radius: 4px;
@@ -1223,6 +1224,18 @@ section {
 
 .swiper-slide {
   width: 40%;
+}
+
+.brand-logo {
+  position: absolute;
+  width: 90px !important;
+  left: 10px;
+  bottom: 0;
+  
+}
+
+.brand-item {
+  width: 90px;
 }
 
 /* .carousel {
@@ -1266,6 +1279,7 @@ section {
 .bd-example {
   margin-top: 80px;
 }
+
 
 @media screen and (max-width: 600px) {
   .carousel-item img {
