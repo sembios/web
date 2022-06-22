@@ -1190,6 +1190,7 @@ section {
 .product-info {
   position: relative;
   width: 300px;
+  min-height: 250px;
   border: 1px solid rgb(158, 151, 151);
   border-radius: 4px;
   display: flex;
@@ -1201,11 +1202,13 @@ section {
 .product-info img {
   width: 200px;
   align-self: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .product-info p {
   width: 275px;
+  min-height: 72px;
+  margin: 0 !important;
 }
 
 .product-info a {
@@ -1237,6 +1240,12 @@ section {
 
 .brand-item {
   width: 90px;
+}
+
+.item-info {
+  position: absolute;
+  bottom: 10px;
+  right: 10px !important;
 }
 
 /* .carousel {
