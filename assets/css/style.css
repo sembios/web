@@ -1251,6 +1251,10 @@ section {
 .item-names {
   padding-top: 30px;
 }
+
+.about-company {
+  font-size: 20px !important;
+}
 /* .carousel {
   height: 100% !important;
 }
