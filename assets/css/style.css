@@ -1248,6 +1248,9 @@ section {
   right: 10px !important;
 }
 
+.item-names {
+  padding-top: 30px;
+}
 /* .carousel {
   height: 100% !important;
 }
